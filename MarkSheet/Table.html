@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="table.css">
+</head>
+<body>
+<div class="center">
+    Student_Name:      <input type="text" id="ipt0"placeholder="Student_Name"><br>
+    Student_ID :       <input type="text" id="ipt1"placeholder="Student_ID"><br>
+    Subject_HTML :     <input type="text" id="ipt2"placeholder="Subject_HTML "><br>
+    Student_CSS  :     <input type="text" id="ipt3"placeholder="Student_CSS"><br>
+    Student_JAVASCRIPT:<input type="text" id="ipt4"placeholder="Student_JAVASCRIPT"><br>
+    Student_BOOTSTRAP: <input type="text" id="ipt5"placeholder="Student_BOOTSTRAP"><br>
+   <!-- Total_Marks:       <input type="text" id="ipt6"placeholder="Total_Marks"><br>!-->
+
+    <button onclick="additems1()" class="fa fa-plus-square"id="btn"> Add Record</button>
+
+</div>
+
+<h1 class="h1">Student MarkSheet</h1>
+<table id="customers">
+    <tr>
+        <th>STUDENT_Name </th>
+        <th>STUDENT_ID</th>
+        <th>STUDENT_HTML </th>
+        <th>STUDENT_CSS  </th>
+        <th>STUDENT_JAVASCRIPT</th>
+        <th>STUDENT_BOOTSTRAP </th>
+        <th>Total_Marks</th>
+    </tr>
+    <tr id="list">
+        <th id="tr1" ></th>
+        <th id="tr2" ></th>
+        <th id="tr3" ></th>
+        <th id="tr4" ></th>
+        <th id="tr5" ></th>
+        <th id="tr6" ></th>
+        <th id="tr7" ></th>
+    </tr>
+</table>
+<script src="table.js"></script>
+</body>
+</html>
